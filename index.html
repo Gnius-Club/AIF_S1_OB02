@@ -1,24 +1,139 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Sesión de Intro 2: Kit de Herramientas Digitales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Intro 2: Kit de Herramientas Digitales</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Preparando el Taller de Diseño ⏰ 5 minutos</h2>
+                <p>Introducir el objetivo de la sesión: configurar las herramientas de nivel profesional que se usarán durante el año.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto ⏰ 5 minutos</h3>
+                            <p>El facilitador explica la importancia de tener cuentas en plataformas externas para un flujo de trabajo profesional.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Directores, bienvenidos. La sesión pasada aseguramos nuestro acceso a Gnius Space. Hoy, vamos a armar nuestro taller digital. Un diseñador profesional no usa una sola herramienta, sino un ecosistema de plataformas especializadas. Para guardar nuestros diseños 3D, generar conceptos visuales y colaborar, necesitaremos cuentas en algunas de las mejores plataformas del mundo. La sesión de hoy es 100% práctica y de configuración. Nuestro objetivo es que, al terminar, todos tengan su 'kit de herramientas' listo para crear.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Creando nuestra cuenta en Onshape ⏰ 15 minutos</h2>
+                <p>Guiar a los estudiantes en el proceso de registro de Onshape, el software CAD profesional que usarán para el diseño 3D.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Introducción a Onshape y Navegación ⏰ 3 minutos</h3>
+                            <p>El facilitador introduce Onshape y proyecta la URL de registro.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Nuestra primera herramienta es Onshape. Es un software de Diseño Asistido por Computadora (CAD) basado en la nube, utilizado por ingenieros y diseñadores en todo el mundo. Aquí es donde nuestras ideas tomarán forma física. Les proyectaré la dirección web para crear una cuenta de Estudiante. Es importante que sigan los pasos conmigo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Registro Guiado ⏰ 10 minutos</h3>
+                            <p>El facilitador guía a los alumnos paso a paso en el formulario de registro, resolviendo dudas comunes.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Vamos a llenar el formulario juntos. Usen su correo institucional. En el campo de 'Compañía o Escuela', pongan el nombre de nuestro colegio. En '¿Para qué usas Onshape?', seleccionen 'Estudiante'. Tómense su tiempo, y si algún campo no es claro, levanten la mano. El objetivo es llegar al correo de activación y confirmar la cuenta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Verificación ⏰ 2 minutos</h3>
+                            <p>El facilitador se asegura de que todos los estudiantes hayan podido acceder a su dashboard de Onshape.</p>
+                        </div>
+                         <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Excelente. Una vez confirmada la cuenta, deberían poder ver su panel principal de Onshape. ¿Todos ven el botón azul que dice 'Create'? Perfecto, nuestra primera herramienta está configurada.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Activando nuestro Generador de Conceptos: Imagine Art AI ⏰ 20 minutos</h2>
+                <p>Guiar a los estudiantes para que se registren en la plataforma de IA generativa de imágenes.</p>
+                 <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Introducción a la IA Generativa ⏰ 5 minutos</h3>
+                            <p>El facilitador explica el rol de las IAs generativas en el proceso de diseño.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">La segunda herramienta de nuestro kit es un generador de imágenes por IA, como 'Imagine Art AI'. Esta tecnología nos permite crear conceptos visuales y 'moodboards' a partir de texto. En lugar de buscar inspiración, la vamos a crear. Es nuestro socio para la fase de ideación, ayudándonos a visualizar estilos y formas antes de siquiera abrir Onshape.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Registro en la Plataforma de IA ⏰ 15 minutos</h3>
+                            <p>El facilitador guía a los alumnos en el proceso de registro, usualmente vinculando una cuenta existente.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Proyectaré la URL. La mayoría de estas plataformas permiten un registro rápido vinculando su cuenta de Google. Procedan a crear su cuenta. Una vez dentro, busquen el campo de texto o 'prompt box' donde se escriben las ideas. No generaremos nada hoy, solo nos aseguraremos de que todos tengan acceso a la herramienta. Levanten la mano si necesitan ayuda. El objetivo es tener nuestro 'taller de ideación' listo y operativo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
